@@ -19,7 +19,7 @@ The plugin provides a single command: `/reloadplugin <pluginName>`.
 
 Tab completion is also available for suggesting all available plugins on the server.
 
-Note that the plugin requires the `spr.reloadplugin` permission to use the command.
+Note that the plugin requires the `spr.reloadplugin` (or OP) permission to use the command.
 
 ## Acknowledgements
 
