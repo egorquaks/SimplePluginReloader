@@ -1,4 +1,4 @@
 name: SimplePluginReloader
 version: '${project.version}'
-main: by.simplepluginreloader.SimplePluginReloader
+main: by.quaks.spr.SimplePluginReloader
 api-version: 1.19
