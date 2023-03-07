@@ -1,0 +1,4 @@
+name: SimplePluginReloader
+version: '${project.version}'
+main: by.simplepluginreloader.SimplePluginReloader
+api-version: 1.19
