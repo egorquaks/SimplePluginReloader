@@ -1,5 +1,6 @@
 # SimplePluginReloader
 ![GitHub](https://img.shields.io/github/license/qu4ks/SimplePluginReloader?style=flat-square)
+
 This is a simple Minecraft plugin that provides a command for reloading other plugins on the server.
 
 ## Features
