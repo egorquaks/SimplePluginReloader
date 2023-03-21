@@ -39,7 +39,7 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
-                            <outputFile>C:\Users\egorl\Desktop\1.19.3 server test\plugins\reloader.jar</outputFile>
+                            <outputFile>C:\Users\egorl\Desktop\servers\1.19.3 server test\plugins\reloader.jar</outputFile>
                         </configuration>
                     </execution>
                 </executions>
@@ -68,13 +68,13 @@
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.19.3-R0.1-SNAPSHOT</version>
+            <version>1.19.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>dev.jorel</groupId>
             <artifactId>commandapi-shade</artifactId>
-            <version>8.7.0</version>
+            <version>8.8.0</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
