@@ -27,7 +27,6 @@ public class ReloadCommand{
                 .executes((sender, args) -> {
                     String pluginName = (String) args[0];
                     Plugin plugin = Bukkit.getPluginManager().getPlugin(pluginName);
-                    if(args.length==1){
                         if (plugin != null) {
                             Bukkit.getPluginManager().disablePlugin(plugin);
                             Bukkit.getPluginManager().enablePlugin(plugin);
@@ -35,9 +34,6 @@ public class ReloadCommand{
                         } else {
                             sender.sendMessage("Plugin " + pluginName + " not found");
                         }
-                    } else {
-                        sender.sendMessage("Incorrect Arguments");
-                    }
                 })
                 .register();
     }

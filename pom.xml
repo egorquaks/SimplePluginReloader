@@ -6,7 +6,7 @@
 
     <groupId>by</groupId>
     <artifactId>SimplePluginReloader</artifactId>
-    <version>1.19.4-1.1</version>
+    <version>1.19.4-1.0</version>
     <packaging>jar</packaging>
 
     <name>SimplePluginReloader</name>
