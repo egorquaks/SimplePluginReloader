@@ -6,7 +6,7 @@
 
     <groupId>by</groupId>
     <artifactId>SimplePluginReloader</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.19.4-1.0</version>
     <packaging>jar</packaging>
 
     <name>SimplePluginReloader</name>
@@ -17,6 +17,7 @@
     </properties>
 
     <build>
+        <finalName>${project.name}-${project.version}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -39,7 +40,7 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
-                            <outputFile>C:\Users\egorl\Desktop\servers\1.19.3 server test\plugins\reloader.jar</outputFile>
+                            <outputFile>C:\Users\egorl\Desktop\servers\1.19.3 server test\plugins\${project.name}-${project.version}.jar</outputFile>
                         </configuration>
                     </execution>
                 </executions>
