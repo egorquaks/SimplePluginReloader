@@ -14,6 +14,5 @@ public final class SimplePluginReloader extends JavaPlugin {
     @Override
     public void onDisable() {
         CommandAPI.onDisable();
-        // Plugin shutdown logic
     }
 }
