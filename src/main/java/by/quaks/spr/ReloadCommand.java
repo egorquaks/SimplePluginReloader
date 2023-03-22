@@ -27,12 +27,16 @@ public class ReloadCommand{
                 .executes((sender, args) -> {
                     String pluginName = (String) args[0];
                     Plugin plugin = Bukkit.getPluginManager().getPlugin(pluginName);
-                    if(plugin != null) {
-                        Bukkit.getPluginManager().disablePlugin(plugin);
-                        Bukkit.getPluginManager().enablePlugin(plugin);
-                        sender.sendMessage("Reloaded plugin " + pluginName);
+                    if(args.length==1){
+                        if (plugin != null) {
+                            Bukkit.getPluginManager().disablePlugin(plugin);
+                            Bukkit.getPluginManager().enablePlugin(plugin);
+                            sender.sendMessage("Reloaded plugin " + pluginName);
+                        } else {
+                            sender.sendMessage("Plugin " + pluginName + " not found");
+                        }
                     } else {
-                        sender.sendMessage("Plugin " + pluginName + " not found");
+                        sender.sendMessage("Incorrect Arguments");
                     }
                 })
                 .register();
